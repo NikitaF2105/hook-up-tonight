@@ -724,7 +724,7 @@ body {
     top: calc(50% + 60px);
   }
   .entry__content-title::before {
-    top: calc(50% + 34px);
+    top: calc(50% + 60px);
   }
 
   .boldgrid__section {
