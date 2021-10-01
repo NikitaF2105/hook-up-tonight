@@ -315,7 +315,7 @@ body {
   content: "";
   clear: both;
   display: block;
-  top: calc(50% + 62px);
+  top: calc(50% + 60px);
   left: 0;
   height: 1px;
   border: 0;
@@ -722,6 +722,9 @@ body {
 
   .find__partner-title::before {
     top: calc(50% + 60px);
+  }
+  .entry__content-title::before {
+    top: calc(50% + 34px);
   }
 
   .boldgrid__section {
