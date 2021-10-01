@@ -97,7 +97,6 @@ body {
   display: flex;
   padding: 0;
   list-style: none;
-  padding-top: 20px;
   margin-bottom: 20px;
 }
 .breadcrumb-item:not(:last-child):after {
@@ -142,7 +141,7 @@ body {
   background-repeat: no-repeat;
   min-height: 70vh;
   padding-top: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .find__partners-content {
@@ -222,7 +221,7 @@ body {
   content: "";
   clear: both;
   display: block;
-  top: 60px;
+  top: calc(50% + 34px);
   left: 0;
   height: 1px;
   border: 0;
@@ -315,7 +314,7 @@ body {
   content: "";
   clear: both;
   display: block;
-  top: 110px;
+  top: calc(50% + 62px);
   left: 0;
   height: 1px;
   border: 0;
@@ -756,13 +755,6 @@ body {
     padding-top: 40px;
   }
 
-  .entry__content-title::before {
-    top: 96px;
-  }
-
-  .find__partner-title::before {
-    top: 148px;
-  }
   .breadcrumb__link-why-us,
   .breadcrumb__link-meet-your-partner,
   .breadcrumb__link-easy-way {
