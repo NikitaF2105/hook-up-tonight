@@ -707,9 +707,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .find__partner-title::before {
-    top: 100px;
-  }
+
   .find__partner-img_box {
     width: 100%;
     margin-right: 0;
@@ -721,6 +719,11 @@ body {
   .find__partner-text__box {
     width: 100%;
   }
+
+  .find__partner-title::before {
+    top: calc(50% + 60px);
+  }
+
   .boldgrid__section {
     display: flex;
     flex-direction: column;
